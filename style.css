@@ -30,3 +30,11 @@ main {
 #house {
   align-items: baseline;
 }
+
+.div-top {
+  margin-top: 20px;
+}
+
+#label-content {
+  margin-top: 20px;
+}
