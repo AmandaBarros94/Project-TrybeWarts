@@ -9,5 +9,15 @@
 }
 
 .trybewarts-header-logo {
-    width: 8vh;
+  width: 8vh;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+}
+
+main {
+  display: flex;
+
 }
