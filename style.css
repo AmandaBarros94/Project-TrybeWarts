@@ -15,6 +15,11 @@ body {
 
 .trybewarts-login {
   display: flex;
+  padding: 20px;
+}
+
+#input-email-header , #input-pass-header {
+  margin-right: 10px;
 }
 
 .trybewarts-header-logo {
@@ -31,6 +36,7 @@ main {
   display: flex;
   justify-content: space-around;
   box-sizing: border-box;
+  margin-top: 30px;
 }
 
 #trybewarts-forms-logo {
@@ -50,12 +56,17 @@ main {
 }
 
 .rodapé {
-
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgb(40, 141, 97);
 }
 
-#label-family {
+#label-family , #label-content {
   margin-top: 10px;
 }
+
 #radio-Frontend {
   margin: top 15px;
 }
