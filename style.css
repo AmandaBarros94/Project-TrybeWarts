@@ -1,3 +1,12 @@
+* {
+  border-radius: 4px;
+  border: none;
+}
+
+body {
+  background-color: gainsboro;
+}
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
@@ -33,7 +42,7 @@ main {
 }
 
 .div-top {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 #label-content {
@@ -41,5 +50,12 @@ main {
 }
 
 .rodapé {
-  
+
+}
+
+#label-family {
+  margin-top: 10px;
+}
+#radio-Frontend {
+  margin: top 15px;
 }

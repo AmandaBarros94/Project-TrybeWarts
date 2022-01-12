@@ -11,3 +11,16 @@ function validate() {
 }
 
 buttonHeader.addEventListener('click', validate);
+
+const agreement = document.getElementById('agreement');
+const submit = document.getElementById('submit-btn');
+
+function validateForm() {
+  if (agreement.checked === true) {
+    submit.disabled = false;
+  } else {
+    submit.disabled = true;
+  }
+}
+
+agreement.addEventListener('click', validateForm);
